@@ -105,6 +105,23 @@ ul li a:active{
   
     background: linear-gradient(45deg, red,white,green);
 }
+.Searchbar [name="search"]{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    height: 30px;
+    width: 250px;
+   
+}
+
+.fa-search{
+   
+    
+    width: 20px;
+    height: 20px;
+   margin-left: -34px;
+    padding: 4px;
+}
+
 .form-lik input[type="submit"]:hover{
    color: rgb(49, 6, 241);
   
@@ -144,8 +161,3 @@ footer{
 .links textarea[name = "comment"]{
    margin-top: 20px;
 } 
-
-
-
-
-
